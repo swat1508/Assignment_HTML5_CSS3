@@ -8,13 +8,11 @@ body{
     justify-content: space-between;
 }
 .imageClass{
-    /* width: 20%; */
     height: 10vh;
     width: 30%;
 }
 .headerClass{
     margin-left: 500px; 
-    /* width: 30%; */
     height: 10vh;
     width: 70%;
 }
@@ -39,13 +37,11 @@ ul a:hover{
 /*Logo and Navigation Bar Ends*/
 .wrap{
      width:1000px;
-     /* height: 500px; */
      text-align: center;
      text-decoration-style: dotted;
-/*  margin:auto;   */
     margin-left: 200px;
     margin-top: 5px;
-    /* background-color: tomato; */
+
     border:3px blue solid;
     /* overflow: scroll; */
 }
@@ -59,7 +55,7 @@ ul a:hover{
 }
 .container_1 div{
     width: 100%;
-    min-width: 33%;   /* it was 33%*/
+    min-width: 33%;  
     border:1px #ccc solid;
     padding: 10px;
     /* height:200px; */
@@ -78,13 +74,12 @@ ul a:hover{
   }
 aside {
     height: 35vh;
-    width: 10%;
-    /* background-color: white; */
+    width: 15%;
     background-color: cyan;
   }
   main {
     height: 35vh;
-    width: 90%;
+    width: 85%;
   }
   div aside a{
       margin-top: 50px;
