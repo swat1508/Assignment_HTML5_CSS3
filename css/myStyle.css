@@ -3,13 +3,31 @@ body{
     margin: 0px;
     width: 100%;
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 /*Logo and Navigation Bar Starts*/
 .myHeaderClass{     
     /* height: 10vh; */
     /* margin-top: 0vh auto; */
+	  /*top: 10px; */
+	  
     display: flex;
     justify-content: space-between;
-    /* position: fixed; */
+	
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	 background-color: white;
+	 width:100%;
+	 z-index:500;
+	
 }
 .imageClass{     /*Logo*/
     /* height: 10vh; */
@@ -45,7 +63,9 @@ ul a:hover{
 
 .carouselLayout{
      /* height: 300px;  */
-     margin-bottom: 5vh;
+     margin-bottom: 3vh;
+     margin-bottom: 3vh;
+	 /* margin-top: 70px; */
 }
 .container_1 {
     display: flex;
@@ -66,20 +86,25 @@ ul a:hover{
     background-color: cyan;
   }
 aside {
-    width:30%;
+    width:20%;
     background-color: orange;
   }
+  .imgCls{
+    height: 50%;
+    width: 100%;
+}
   div ul li{
       text-align: center;
       list-style-type: none; 
   }
   main {
-    width:70%;
+    width:80%;
     text-align: left;
   }
 
   .container2_text_main{
   font-family: 'Monospace';
+  text-align: left;
   }
 
   .container_3 {
@@ -138,9 +163,12 @@ width: 50%;
                 width: 100%;                
             }
             .imgCls{
-                max-height: 100%;
-                max-width: 100%;
+                width:100%;
+                align-items: initial;
+                max-height: 20%;
+                max-width: 20%;
             }
+            
             main {
             width: 100%;
             font-size:5px; 
