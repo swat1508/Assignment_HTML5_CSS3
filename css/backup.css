@@ -1,0 +1,156 @@
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: grey;
+     font-family: sans-serif;
+ }
+.wrap{
+    padding-top: 30px;
+}
+/* .myHeaderClass{
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    z-index: 500;
+} */
+ header {
+     display: flex;
+     /* justify-content: space-between; */
+     margin-bottom: 0.6em; 
+     width: 100%;
+     background-color: orange;
+
+     position: fixed;
+     /* overflow: hidden; */
+     /* top: 0px; */
+     /* z-index: 500; */
+     }
+
+ nav  {
+     display: flex;
+     width: 70%;
+     z-index: 500;
+ }
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    font-size: 20px;
+    color: mintcream;
+}
+ ul {
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+ }
+
+ li {
+     list-style: none;
+ }
+ .container_0 {
+    display: flex;
+    justify-content:  space-around;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+}
+ .container_1 {
+        display: flex;
+        justify-content:  space-around;
+ }
+.imageBox {
+    width: 30%;
+    border: 2px solid black;
+}
+ .container_1  img {
+     width: 100%;
+ }
+/*Container 2 Starts*/
+.container_2 {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+  }
+.aside {
+    width:15%;
+  }
+
+  .imgCls{
+    width: 100%;
+    height: 50%;
+    border:1px solid black;
+    background-color: orange;
+}
+
+  .container2_text_main{
+    background-color: orange;
+    width:85%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* z-index: 1000; */
+  }
+
+  .contaicontainer2_text_main .boxes {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* z-index: 1000; */
+}
+/*Container 2 Ends*/
+.footer{
+    width: 100%;
+    height: 30%;
+    background-color: chartreuse;
+}
+
+.footer img:hover{   
+    cursor: pointer;
+}
+
+ @media (max-width: 600px) {
+     .wrap{
+         padding-top: 55px;
+     }
+    .container_1  {
+        flex-direction: column;
+        justify-content:  space-between;
+        margin: auto;
+        width: 50%;
+    }
+    .imageBox {
+        width: 80%;
+        margin: auto;
+        border: 1px solid black;
+        margin-bottom: 10px;
+    }
+
+    .container_2  {
+        flex-direction: column;
+        justify-content:  space-between;
+        margin: auto;
+        width: 50%;
+    }
+    .container2_text_main{
+        flex-direction: column;
+        justify-content:  space-between;
+        margin: auto;
+    }
+    .aside {
+        width: 80%;
+        margin: auto;
+        border: 1px solid black;
+        margin-bottom: 10px;
+    }
+    .boxes {
+        width: 80%;
+        margin: auto;
+        border: 1px solid black;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+
+ }

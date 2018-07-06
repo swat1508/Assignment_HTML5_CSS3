@@ -4,23 +4,44 @@ body{
     width: 100%;
 }
 
+
+img{
+    widht:100%;
+    height: 100%;;
+}
+
 .myHeaderClass {
     background-color: white;
     width: 100%;
     position: fixed;
     top: 0px;
-    display: flex;
-    align-items: center;
     overflow: hidden;
+    align-items: center;
     z-index: 500;	
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+
+
+}
+.imageClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.headerClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .wrap {
+    width: 100%;
     margin-top: 60px;
 }
 
 nav ul {
-    padding-left: 100px;
+    /* padding-left: 100px; */
     margin-bottom: 0px;
 }
 
@@ -40,12 +61,12 @@ nav ul li{
     justify-content: space-around;
     background-color: grey;
 }
-.container_1 .imageBox{
-    padding-left: 50px;
+.imageBox{
+    /* padding-left: 50px; */
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width:33%;
+    width:30%;
     background-color: grey;
 }
  .pic {
@@ -72,6 +93,7 @@ ul a:hover{
 }
 
 .carouselLayout{
+    width: 100%;
      margin-bottom: 3vh;
      margin-bottom: 3vh;
 }
@@ -179,6 +201,7 @@ ul a:hover{
             display: flex;
             flex-direction: column;
             justify-content: center;
+            margin-top: 200px;
             }
         .imageBox{            
             display: flex;
@@ -192,12 +215,15 @@ ul a:hover{
             justify-content: center;
             align-items: center;
             padding-left:300px;
-            width: 300px;
-            height: 400px;
+            /* width: 300px;
+            height: 400px; */
+            width: 400px;
+            height: 500px;
         }
         .pic img{
-            width: 250x;
-            height: 300px;
+    
+            width: 350px;
+            height: 450px;
         }
          .box {
             width: 100%;
@@ -205,10 +231,11 @@ ul a:hover{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding-left:300px;
+            padding-left:200px;
             width: 300px;
             height: 300px;
             font-size: 20px;
+            
         }  
 
         .container_2{
@@ -270,6 +297,7 @@ ul a:hover{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top: 200px;
     }
     .pic{
         width: 100%;
@@ -277,7 +305,7 @@ ul a:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-left:300px;
+        /* padding-left:300px; */
         width: 200px;
         height: 300px;
     }
@@ -291,10 +319,10 @@ ul a:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-left:300px;
-        width: 200px;
+        padding-left:100px;
+        width: 400px;
         height: 200px;
-        font-size: 20px;
+        font-size: 30px;
     }
     
     .container_2{
